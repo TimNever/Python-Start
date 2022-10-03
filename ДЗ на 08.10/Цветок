@@ -1,0 +1,62 @@
+size(1000, 900);
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(0));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(66, 219, 90);
+rectMode(CENTER);
+translate(500, 600);
+rect(0, 0, 30, 600);
+pop();
+
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(30));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(60));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(90));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(120));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(255, 162, 246);
+translate(500, 300);
+rotate(radians(150));
+ellipse(0, 0, 600, 80);
+pop();
+
+push();
+fill(250, 255, 106);
+translate(500, 300);
+ellipse(0, 0, 280, 280);
+pop();
+
+push();
+fill(70, 255, 100);
+translate(580, 800);
+rotate(radians(150));
+ellipse(0, 0, 200, 100);
+pop();
