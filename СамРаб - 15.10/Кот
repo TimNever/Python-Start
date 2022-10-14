@@ -1,4 +1,5 @@
-size(1000, 700)
+size(800, 500)
+translate(-200, -100)
 push()
 translate(600, 350)
 ellipse(0, 0, 325, 200)
