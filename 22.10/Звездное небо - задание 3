@@ -20,7 +20,7 @@ def draw():
     
     #  подключим переменные
     global x, y
-    stroke(random(200, 255), random(200, 255), random(200, 255))
+    stroke(random(0, 255), random(0, 255), random(0, 255))
     strokeWeight(random(1, 10))
     x = random(50, 1550)
     y = random(50, 850)
