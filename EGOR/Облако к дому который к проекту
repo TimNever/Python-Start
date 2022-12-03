@@ -1,0 +1,52 @@
+push()
+x1 = 0
+y1 = 0
+w1 = 0
+d1 = 0
+x1Change = 0
+y1Change = 0
+w1Change = 0
+d1Change = 0
+def setup():
+    size(600,600)
+    global x1,y1,w1,d1,x1Change,y1Change,w1Chage,d1Change
+    frameRate(5)
+    x1 = 400
+    y1 = 100
+    w1 = 100
+    d1 = 50
+    x1Change = -10
+    y1Change = 0
+    w1Chagne = 0
+    d1Change = 0
+def draw():
+    global x1,y1,w1,d1,x1Change,y1Change,w1Chage,d1Change
+    background(70,238,255)
+    ellipse(x1,y1,w1,d1)
+    x1 = x1+x1Change
+    x1 = 0
+pop()
+y1 = 0
+w1 = 0
+d1 = 0
+x1Change = 0
+y1Change = 0
+w1Change = 0
+d1Change = 0
+def setup():
+    size(600,600)
+    global x1,y1,w1,d1,x1Change,y1Change,w1Chage,d1Change
+    frameRate(5)
+    x1 = 400
+    y1 = 100
+    w1 = 100
+    d1 = 50
+    x1Change = -10
+    y1Change = 0
+    w1Chagne = 0
+    d1Change = 0
+def draw():
+    global x1,y1,w1,d1,x1Change,y1Change,w1Chage,d1Change
+    background(70,238,255)
+    ellipse(x1,y1,w1,d1)
+    x1 = x1+x1Change
