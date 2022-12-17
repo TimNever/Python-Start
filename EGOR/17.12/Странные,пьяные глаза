@@ -1,0 +1,47 @@
+x1 = 0 
+y1 = 0
+x2 = 0
+y2 = 0
+x3 = 0
+y3 = 0
+w1 = 0
+d1 = 0
+w2 = 0
+d2 = 0
+w3 = 0
+d3 = 0
+r1 = 0
+r1Change = 0
+r2 = 0
+r2Change = 0
+def setup():
+    size(600,600)
+    frameRate(10)
+    global x1,y1,x2,y2,x3,y3,w1,d1,w2,d2,w3,d3,r1,r1Change,r2,r2Change
+    colorMode(HSB,360,100,100)
+    x1 = 300 
+    y1 = 300
+    x2 = 200
+    y2 = 300
+    x3 = 400
+    y3 = 300
+    w1 = 400
+    d1 = 400
+    w2 = 150
+    d2 = 50
+    w3 = 150
+    d3 = 50
+    r1 = 0
+    r1Change = 1
+    r2 = 0
+    r2Change = 1
+def draw():
+    global x1,y1,x2,y2,x3,y3,w1,d1,w2,d2,w3,d3,r1,r1Change,r2,r2Change
+    fill(255,255,255)
+    ellipse(x1,y1,w1,d1)
+    fill(360,r1,100)
+    ellipse(x2,y2,w2,d2)
+    fill(360,0,r2)
+    ellipse(x3,y3,w3,d3)
+    r1 = r1+r1Change
+    r2 = r2+r2Change
