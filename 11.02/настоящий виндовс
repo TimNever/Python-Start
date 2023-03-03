@@ -1,0 +1,33 @@
+changeX = 2
+changeY = 3
+x = 0
+y = 400
+
+def setup():
+    size(600,400)
+    frameRate(300)
+    rectMode(CENTER)
+    strokeWeight(1)
+    
+def draw():
+    global x,y,changeX,changeY
+    background(100)
+    x = x + changeX
+    y = y + changeY
+    if x > 546:
+        changeX = -0.5
+    if x < 52:
+        changeX = 0.5
+    if y > 362:
+        changeY = -0.75
+    if y < 36:
+        changeY = 0.75
+    translate(x, y)
+    fill(255, 0, 0)
+    rect(-26, -18, 48, 32)
+    fill(0, 255, 0)
+    rect(26, -18, 48, 32)
+    fill(0, 0, 255)
+    rect(-26, 18, 48, 32)
+    fill(255, 255, 0)
+    rect(26, 18, 48, 32)
